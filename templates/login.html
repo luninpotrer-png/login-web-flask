@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <p class="subtitulo">Please enter your details</p>
+        <h1>Welcome Back</h1>
+
+        {% if error %}
+            <p class="faltan">{{ error }}</p>
+        {% endif %}
+
+        <form action="/login" method="POST">
+            <input type="text" name="usuario" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit">Sign up</button>
+            <a href="/register">¿No tienes cuenta?,Creala ahora misma</a>
+        </form>
+    </div>
+</body>
+    </html>

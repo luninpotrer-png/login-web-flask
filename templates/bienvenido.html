@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Bienvenido</title>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="container_bienvenido">
+            <h1>Welcome, {{ nombre }}</h1>
+            <a href="/login">Sign Out</a>
+        </div>
+        <div class="tarjetas">
+            <div class="users_lens">
+                <p class="users_conect"> {{ cantidad_users }} </p>
+                <h2>Usuarios</h2>
+            </div>
+            <div class="acceso">
+                <h1> {{ acceso }} </h1>
+                <h2>Acceso</h2>
+            </div>
+            <div class="estado">
+                <p class="estado_activo"> {{ estado }} </p>
+                <h2>Estado</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

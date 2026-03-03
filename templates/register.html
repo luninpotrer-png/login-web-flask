@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="register">
+    <div class="rster_container">
+        <p class="sub_register">Create a new account!</p>
+        <h3>Register</h3>
+
+        {% if exist_user %}
+            <p class="exist_user"> {{ exist_user }} </p>
+        {% endif %}
+
+        <form action="/register" method="POST">
+            <input type="text" name="usuario_register" placeholder="Username">
+            <input type="password" name="password_register" placeholder="Password">
+            <button type="submit">Register</button>
+            <a href="/login">¿Ya tienes una cuenta?, Inicia sesión</a>
+        </form>
+    </div>
+</body>
+</html>
