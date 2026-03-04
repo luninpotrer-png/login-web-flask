@@ -71,7 +71,7 @@ login-web-flask/
 - Manejo de errores en login y registro
 
 ### 👨‍💻 Sobre el autor
-Soy Owen, estudiante de Ingeniería Informática en Perú, autodidacta apasionado por la programación y la ciberseguridad. Este es mi quinto proyecto personal, el primero con interfaz web usando Flask. Actualmente entrenando en TryHackMe con enfoque en análisis forense y seguridad defensiva.
+Soy Owen, estudiante de Ingeniería Informática en Perú, autodidacta apasionado por la programación y la ciberseguridad. Este es mi quinto proyecto personal antes de mi etapa universitaria, el primero con interfaz web usando Flask. Actualmente entrenando en TryHackMe con enfoque en análisis forense y seguridad defensiva.
 
 ---
 
@@ -142,7 +142,7 @@ login-web-flask/
 - Error handling for login and register
 
 ### 👨‍💻 About the author
-I'm Owen, a Computer Engineering student from Peru, self-taught and passionate about programming and cybersecurity. This is my fifth personal project, the first one with a web interface using Flask. Currently training on TryHackMe with a focus on digital forensics and defensive security.
+I'm Owen, a Computer Engineering student from Peru, self-taught and passionate about programming and cybersecurity. This is my fifth personal project before my steep university, the first one with a web interface using Flask. Currently training on TryHackMe with a focus on digital forensics and defensive security.
 
 ---
 
@@ -150,3 +150,4 @@ I'm Owen, a Computer Engineering student from Peru, self-taught and passionate a
 
 
 > ⭐ Si te gustó el proyecto no olvides dejar una estrella / If you liked the project don't forget to leave a star!
+
