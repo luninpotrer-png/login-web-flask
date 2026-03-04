@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </head>
 <body class="register">
     <div class="rster_container">
@@ -17,9 +18,10 @@
             <p class="exist_user"> {{ exist_user }} </p>
         {% endif %}
 
-        <form action="/register" method="POST">
-            <input type="text" name="usuario_register" placeholder="Username">
-            <input type="password" name="password_register" placeholder="Password">
+        <form action="/register" method="POST" onsubmit="return validar()">
+            <input type="text" name="usuario_register" id="name" placeholder="Username">
+            <input type="password" name="password_register" id="password" placeholder="Password">
+            <button type="button" onclick="TooglePassword()">👁️</button>
             <button type="submit">Register</button>
             <a href="/login">¿Ya tienes una cuenta?, Inicia sesión</a>
         </form>
