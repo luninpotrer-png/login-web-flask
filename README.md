@@ -15,6 +15,7 @@ Aplicación web de autenticación desarrollada con Python y Flask. Incluye login
 - **HTML/CSS** — interfaz de usuario
 - **Jinja2** — motor de plantillas
 - **JSON** — base de datos local
+- **HASH256** - contraseñas con hash256
 - **Google Fonts (Jost)** — tipografía
 
 ### 🚀 Cómo instalarlo y usarlo
@@ -85,6 +86,7 @@ A web authentication app built with Python and Flask. Includes login and user re
 - **HTML/CSS** — user interface
 - **Jinja2** — template engine
 - **JSON** — local database
+- **HASH256** - passwords with hash256
 - **Google Fonts (Jost)** — typography
 
 ### 🚀 How to install and use
@@ -145,5 +147,6 @@ I'm Owen, a Computer Engineering student from Peru, self-taught and passionate a
 ---
 
 > ⚠️ **Importante / Important:** Agrega `datos.json` al `.gitignore` antes de subir / Add `datos.json` to `.gitignore` before pushing
+
 
 > ⭐ Si te gustó el proyecto no olvides dejar una estrella / If you liked the project don't forget to leave a star!
